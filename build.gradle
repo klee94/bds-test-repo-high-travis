@@ -13,7 +13,7 @@ buildscript{
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'com.blackducksoftware.hub'
-apply plugin: 'org.owasp.dependencycheck.gradle'
+apply plugin: org.owasp.dependencycheck.gradle.DependencyCheckPlugin
 
 group = 'com.blackducksoftware.test'
 sourceCompatibility = 1.8
