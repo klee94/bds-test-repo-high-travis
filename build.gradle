@@ -6,7 +6,7 @@ buildscript{
 	}
 	dependencies {
 		classpath group: 'com.blackducksoftware.integration', name: 'hub-gradle-plugin', version: '2.1.0'
-		classpath 'org.owasp:dependency-check-gradle:4.0.2'
+		classpath 'org.owasp:dependency-check-gradle:4.0.1'
 	}
 }
 
